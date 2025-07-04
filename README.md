@@ -10,7 +10,6 @@ Key features:
 - Residual MLP architecture with temporal embedding
 - Class-wise guided sampling
 - Multiple synthesis strategies (PlanA, PlanB, PlanC_xx)
-- Statistical evaluation using MMD, KLD, EMD, Cosine similarity
 - Data visualization and loss curve tracking
 
 ## 📁 Project Structure
@@ -19,7 +18,7 @@ Key features:
 rockburst-ddpm/
 ├── data/                  # Raw data file (e.g., 300个案例.xlsx)
 ├── models/                # Diffusion model definitions
-├── utils/                 # Evaluation metrics and preprocessing
+├── utils/                 # preprocessing
 ├── generate.py           # Main training and generation script
 ├── requirements.txt      # Python dependencies
 └── README.md             # Project overview
