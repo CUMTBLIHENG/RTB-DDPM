@@ -30,15 +30,10 @@ rockburst-ddpm/
 
 - Synthetic `.csv` and `.xlsx` data
 - Loss curves per class
-- MMD EED distribution comparisons
 - Evaluation metrics (.csv summary)
 
 ## 📜 Citation
 
 If you use this code, please cite:
 
-> [Add your paper citation or link here]
 
-## 📬 Contact
-
-For questions or collaborations, please contact [your-email@example.com]
