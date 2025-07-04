@@ -54,7 +54,7 @@ It supports real-time single-point prediction, Excel-based batch training, and m
 
 > Replace with an actual image:
 
-python app_gui.py
+📂 File Structure
 
 rockburst-app/
 │
