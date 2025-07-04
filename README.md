@@ -54,7 +54,28 @@ It supports real-time single-point prediction, Excel-based batch training, and m
 
 > Replace with an actual image:
 
-📁 Project Structure
-<pre> rockburst-app/ ├── app_gui.py # Main GUI interface (Tkinter-based) ├── config.py # Label mappings, model paths, CV settings ├── model_loader.py # Load pre-trained .pkl models ├── predict.py # Perform single-sample predictions ├── train_models.py # Train 6 ML models with GridSearchCV ├── requirements.txt # Python dependencies ├── README.md # Project documentation │ ├── utils/ │ ├── data_utils.py # Read and preprocess Excel files │ └── __init__.py # (optional for packaging) │ ├── models/ # Saved models by category │ ├── SVM/ │ │ └── SVM_best_model.pkl │ ├── RandomForest/ │ ├── XGBoost/ │ ├── LightGBM/ │ ├── CatBoost/ │ └── KNN/ │ └── assets/ └── 岩爆背景图1.jpg # Background image used in GUI </pre>
-
+## 📁 Project Structure
+rockburst-app/
+├── 🧠 app_gui.py # Main GUI interface (Tkinter-based)
+├── ⚙️ config.py # Label mappings, model paths, CV settings
+├── 📦 model_loader.py # Load pre-trained .pkl models
+├── 🤖 predict.py # Single-sample prediction logic
+├── 🏋️ train_models.py # GridSearchCV training for 6 models
+├── 📄 requirements.txt # Python package requirements
+├── 📝 README.md # Project documentation
+│
+├── 🔧 utils/ # Utility scripts
+│ └── 🧾 data_utils.py # Excel reader and preprocessor
+│
+├── 📁 models/ # Saved model folders
+│ ├── SVM/
+│ │ └── SVM_best_model.pkl
+│ ├── RandomForest/
+│ ├── XGBoost/
+│ ├── LightGBM/
+│ ├── CatBoost/
+│ └── KNN/
+│
+└── 🖼️ assets/ # GUI assets
+└── 岩爆背景图1.jpg # Background image
 
