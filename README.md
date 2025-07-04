@@ -55,6 +55,7 @@ It supports real-time single-point prediction, Excel-based batch training, and m
 > Replace with an actual image:
 
 ## 📁 Project Structure
+
 rockburst-app/
 ├── 🧠 app_gui.py # Main GUI interface (Tkinter-based)
 ├── ⚙️ config.py # Label mappings, model paths, CV settings
