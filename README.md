@@ -25,41 +25,13 @@ rockburst-ddpm/
 └── README.md             # Project overview
 ```
 
-## 🚀 Getting Started
 
-### 1. Clone this repository
-
-```bash
-git clone https://github.com/your-username/rockburst-ddpm.git
-cd rockburst-ddpm
-```
-
-### 2. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Prepare your data
-
-Put your Excel file in `data/300个案例.xlsx`.
-
-### 4. Run the model
-
-```bash
-python generate.py
-```
-
-This script will:
-- Train RTB-DDPM models per class
-- Generate synthetic samples using multiple strategies
-- Save visualizations and metrics to `ddpm_RT_generated_results_300/`
 
 ## 📊 Outputs
 
 - Synthetic `.csv` and `.xlsx` data
 - Loss curves per class
-- KDE distribution comparisons
+- MMD EED distribution comparisons
 - Evaluation metrics (.csv summary)
 
 ## 📜 Citation
