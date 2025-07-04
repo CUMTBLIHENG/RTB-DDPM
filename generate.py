@@ -12,7 +12,7 @@ from models.ddpm import ImprovedDDPM
 from utils.metrics import compute_mmd, compute_kld, compute_emd, compute_cosine_sim
 
 # 参数设定
-SAVE_DIR = "ddpm_RT_generated_results_300"
+SAVE_DIR = "ddpm_RT_generated_results"
 os.makedirs(SAVE_DIR, exist_ok=True)
 SEED = 42
 torch.manual_seed(SEED)
@@ -27,7 +27,7 @@ BETA_START = 1e-4
 BETA_END = 0.02
 
 # 数据读取与处理
-df = pd.read_excel("data/300个案例.xlsx", sheet_name="Table 1")
+df = pd.read_excel("data/your_data.xlsx", sheet_name="Table 1")
 X = df[[f"D{i}" for i in range(1, 8)]].values
 y = df["Level"].values
 
